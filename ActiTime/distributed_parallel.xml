@@ -1,0 +1,17 @@
+
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="TestA">
+    <classes>
+      
+      <class name="com.actiTime.testscript.CustomerModule"/>
+      <class name="com.actiTime.testscript.DeleteCustomer"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="TestB">
+    <classes>
+      
+      <class name="com.actiTime.testscript.CustomerModule"/>
+      <class name="com.actiTime.testscript.DeleteCustomer"/>
+    </classes>
+  </test> 
+</suite> 
