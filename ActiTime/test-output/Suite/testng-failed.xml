@@ -8,19 +8,19 @@
           <include name="login"/>
           <include name="testCreateProject"/>
           <include name="openBrowser"/>
-          <include name="closeBrowser"/>
           <include name="logout"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.actiTime.testscript.ProjectModule -->
-      <class name="com.actiTime.testscript.DeleteCustomer">
+      <class name="com.actiTime.testscript.ModifyCustomer">
         <methods>
-          <include name="testDeleteCustomer"/>
           <include name="login"/>
+          <include name="testModifyCustomer"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
           <include name="logout"/>
         </methods>
-      </class> <!-- com.actiTime.testscript.DeleteCustomer -->
+      </class> <!-- com.actiTime.testscript.ModifyCustomer -->
       <class name="com.actiTime.testscript.CustomerModule">
         <methods>
           <include name="testCreateCustomer"/>
@@ -30,15 +30,15 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.actiTime.testscript.CustomerModule -->
-      <class name="com.actiTime.testscript.ModifyCustomer">
+      <class name="com.actiTime.testscript.DeleteCustomer">
         <methods>
-          <include name="testModifyCustomer"/>
+          <include name="testDeleteCustomer"/>
           <include name="login"/>
           <include name="openBrowser"/>
           <include name="logout"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.actiTime.testscript.ModifyCustomer -->
+      </class> <!-- com.actiTime.testscript.DeleteCustomer -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

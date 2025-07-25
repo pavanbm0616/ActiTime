@@ -156,14 +156,14 @@ in C:\Users\pavan\OneDrive\Desktop\ActITime\ActiTime\normal.xml
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.actiTime.testscript.DeleteCustomer</span>
+              <span class="class-name">com.actiTime.testscript.ModifyCustomer</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteCustomer">
-                  </a> <!-- testDeleteCustomer -->
-                  <span class="method-name">testDeleteCustomer</span>
+                  <a name="testModifyCustomer">
+                  </a> <!-- testModifyCustomer -->
+                  <span class="method-name">testModifyCustomer</span>
                   <div class="stack-trace">org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeTest on method openBrowser but has not been marked @Optional or defined
 in C:\Users\pavan\OneDrive\Desktop\ActITime\ActiTime\normal.xml
@@ -196,14 +196,14 @@ in C:\Users\pavan\OneDrive\Desktop\ActITime\ActiTime\normal.xml
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.actiTime.testscript.ModifyCustomer</span>
+              <span class="class-name">com.actiTime.testscript.DeleteCustomer</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testModifyCustomer">
-                  </a> <!-- testModifyCustomer -->
-                  <span class="method-name">testModifyCustomer</span>
+                  <a name="testDeleteCustomer">
+                  </a> <!-- testDeleteCustomer -->
+                  <span class="method-name">testDeleteCustomer</span>
                   <div class="stack-trace">org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeTest on method openBrowser but has not been marked @Optional or defined
 in C:\Users\pavan\OneDrive\Desktop\ActITime\ActiTime\normal.xml
@@ -302,26 +302,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCreateProject')
-data.setCell(0, 2, 'com.actiTime.testscript.ProjectModule')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'testDeleteCustomer')
+data.setCell(0, 2, 'com.actiTime.testscript.DeleteCustomer')
+data.setCell(0, 3, 1);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testCreateCustomer')
-data.setCell(1, 2, 'com.actiTime.testscript.CustomerModule')
+data.setCell(1, 1, 'testCreateProject')
+data.setCell(1, 2, 'com.actiTime.testscript.ProjectModule')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testDeleteCustomer')
-data.setCell(2, 2, 'com.actiTime.testscript.DeleteCustomer')
+data.setCell(2, 1, 'testModifyCustomer')
+data.setCell(2, 2, 'com.actiTime.testscript.ModifyCustomer')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testModifyCustomer')
-data.setCell(3, 2, 'com.actiTime.testscript.ModifyCustomer')
+data.setCell(3, 1, 'testCreateCustomer')
+data.setCell(3, 2, 'com.actiTime.testscript.CustomerModule')
 data.setCell(3, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 1 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -342,18 +342,18 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.actiTime.testscript.ProjectModule</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">openBrowser</span>
-                <br/>
                 <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.actiTime.testscript.CustomerModule</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">closeBrowser</span>
-                <br/>
                 <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
